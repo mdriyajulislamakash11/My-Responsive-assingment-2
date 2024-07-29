@@ -32,4 +32,7 @@
         margin:  35px auto;
         
     }
+    .meet-images-box{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
