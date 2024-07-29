@@ -23,6 +23,13 @@
         
     }
     .cards{
-        margin-bottom: 36px;
+        margin-top: 36px;
+    }
+    .run-container{
+        flex-direction: column;
+    }
+    .run-images{
+        margin:  35px auto;
+        
     }
 }

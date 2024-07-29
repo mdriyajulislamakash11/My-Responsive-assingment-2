@@ -271,13 +271,55 @@ nav ul li{
     color: rgba(255, 255, 255, 0.5);
 }
 
+/* ******************************************************************* */
 
+/* Run an Extra Mile Easily sectio0n style related. the style start here*/
 
+.run-container{
+    max-width: 1060px;
+    min-height: 371px;
+    border: 2px solid red;
+    margin: 0 auto;
+    border-radius: 18px;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.run-content{
+    max-width: 443px;
+    min-height: 290px;
+    border: 2px solid red;
+    margin: 54px;
+    background-color: black;
+}
 
+.run-content-title{
+    font-size: 3rem;
+    font-weight: 900;
+    color:rgb(255, 255, 255);
+    margin-bottom: 14px;
+}
 
+.run-content-description{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    margin-bottom: 34px;
+}
 
+/* run images style start here */
 
+.run-images{
+    width: 443px;
+    height: 290px;
+    border: 2px solid red;
+    margin-right: 32px;
+}
 
-
-
+.run-images img{
+   width: 100%;
+   border-radius: 18px;
+   
+}
