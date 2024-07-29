@@ -1,0 +1,28 @@
+@media screen and (max-width: 576px) {
+    .hero-section{
+        flex-direction: column;
+    }
+    .baner{
+        flex-direction: column;
+    }
+    .banner-content{
+        margin-left: 70px;
+    }
+
+    .hambuger-menu-btn{
+        display: block;
+        color: aliceblue;
+        margin-right: 16px;
+    }
+    nav ul li{
+       display: none;
+    }
+
+    .box-container{
+        flex-direction: column;
+        
+    }
+    .cards{
+        margin-bottom: 36px;
+    }
+}

@@ -1,0 +1,283 @@
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+BE+VLG:wght@100..400&family=Playwrite+HR:wght@100..400&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.hero-section{
+    max-width: 1440px;
+    min-height: 715px;
+    border: 2px solid red;
+    margin: 0 auto;
+    background-color: black;
+}
+
+
+/* navber style related section start here*/
+.navber{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1060px;
+    height: 46px;
+    margin: 0 auto;
+    border: 2px solid red;
+    margin: 45px auto;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 47px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.hambuger-menu-btn{
+    display: none;
+}
+
+.btn-estra-color{
+    border-radius: 46px;
+    padding: 8px 20px 8px 20px;
+    background: rgb(230, 83, 60);
+    
+}
+
+
+.logo{
+    font-size: 2.1rem;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+}
+
+/* navber style related section ends here*/
+
+/* ========================================= */
+.baner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.banner-content{
+    width: 520px;
+    height: 440px;
+    border: 2px solid red;
+    margin-right: 30px;
+}
+
+.images{
+    width: 349px;
+    height: 580px;
+    border: 2px solid red;
+
+}
+
+
+/* banner style related section start here */
+.banner-content-title{
+    font-size: 4.5rem;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 28px;
+    color: rgb(255, 255, 255);
+}
+/* em{
+    font-family: 'Miama', sans-serif;
+    letter-spacing: 0%;
+   
+} */
+
+
+.banner-conntent-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 28px;
+}
+
+.banner-btn{
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 83, 60);
+}
+#second-btn{
+    background-color: black;
+    border: 1px solid white;
+}
+
+
+/* ************************************************ */
+
+
+/* This is images badg number 1 style start here */
+
+.images-badg-1{
+    width: 206px;
+    height: 96px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    position: relative;
+    top: -500px;
+    left: 235px;
+}
+
+.badg-1-big-title{
+    font-size: 2.6rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.badg-1-big-descrioption{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.boll{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+}
+/* This is images badg number 1 style ends here */
+
+
+/* This is images badg number 2 style start here */
+.images-badg-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 206px;
+    height: 96px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: relative;
+    top: -270px;
+    left: -100px;
+}
+
+.badg-2-big-title{
+    font-size: 24px;
+    font-weight: 900;
+    color: rgb(250, 250, 249);
+}
+
+.badg-2-big-descrioption{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 1rem;
+    font-weight: 400;
+}
+/* This is images badg number 2 style ends here */
+
+
+/* *********************************************************************** */
+/* main section style start here */
+
+/* Change Your Habits section style start here */
+.habite-container{
+    max-width: 1044px;
+    min-height: 452px;
+    border: 2px solid red;
+    margin: 100px auto;
+    background-color: rgba(0, 0, 0, 0.997);
+}
+
+.habite-content{
+    max-width: 671px;
+    height: 120px;
+    border: 2px solid red;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.habite-container-title{
+    font-size: 2.6rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.habite-container-description{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 14px;
+    padding: 0 20px;
+}
+
+.box-container{
+    max-width: 1044px;
+    /* height: 274px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 58px;
+}
+
+.cards{
+    max-width: 231px;
+    height: 274px;
+    border: 2px solid red;
+}
+.cards-images{
+    margin-left: 23px;
+   
+}
+
+.cards-images img{
+    border-radius: 50%;
+
+}
+
+.cards-content{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.habite-content-title{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.habite-content-description{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
