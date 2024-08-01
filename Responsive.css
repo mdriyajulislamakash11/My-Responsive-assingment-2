@@ -1,10 +1,15 @@
 @media screen and (max-width: 576px) {
-    .hero-section{
+    .hero-section,
+    .baner, 
+    .box-container, 
+    .run-container, 
+    .footer-content, 
+    .second-part-bmi{
         flex-direction: column;
     }
-    .baner{
+    /* {
         flex-direction: column;
-    }
+    } */
     .banner-content{
         margin-left: 70px;
     }
@@ -18,16 +23,16 @@
        display: none;
     }
 
-    .box-container{
+    /* .box-container{
         flex-direction: column;
         
-    }
+    } */
     .cards{
         margin-top: 36px;
     }
-    .run-container{
+    /* .run-container{
         flex-direction: column;
-    }
+    } */
     .run-images{
         margin:  35px auto;
         
