@@ -314,9 +314,9 @@ nav ul li{
 /* run images style start here */
 
 .run-images{
-    width: 443px;
+    max-width: 443px;
     height: 290px;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     margin-right: 32px;
 }
 

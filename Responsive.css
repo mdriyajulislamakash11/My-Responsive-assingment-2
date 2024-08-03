@@ -12,6 +12,7 @@
     } */
     .banner-content{
         margin-left: 70px;
+        
     }
 
     .hambuger-menu-btn{
@@ -40,4 +41,14 @@
     .meet-images-box{
         grid-template-columns: repeat(1, 1fr);
     }
+    .run-images{
+        margin-top: 0;
+    }
+   
+
+    .banner-content{
+        display: none;
+    }
+   
+    
 }
