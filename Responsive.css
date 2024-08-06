@@ -7,11 +7,17 @@
     .second-part-bmi{
         flex-direction: column;
     }
-    /* {
-        flex-direction: column;
-    } */
+    .hero-section{
+        padding-top: 58px ;
+    }
+    .navber{
+        
+        padding-bottom: 80px;
+    }
+
+   
     .banner-content, .navber{
-        margin: 0 20px; 
+        margin: 0px 20px; 
         
     }
 
@@ -41,6 +47,13 @@
         font-size: 2.4rem;
         
     }
-   
+    .banner-content-description{
+        max-width: 250px;
+    }
+
+    .run-images{
+        padding: 35px;
+        margin-top: 0px;
+    }
     
 }
