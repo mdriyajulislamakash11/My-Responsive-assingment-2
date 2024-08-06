@@ -71,22 +71,24 @@ nav ul li{
 
 /* ========================================= */
 .baner{
+    max-width: 1060px;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    margin: 0 auto;
+    gap: 140px;
+    
     
 }
 .banner-content{
-    width: 520px;
-    height: 440px;
-    /* border: 2px solid red; */
-    margin-right: 30px;
+    max-width: 520px;
+    
+
 }
 
 .images{
     width: 349px;
     height: 580px;
-    /* border: 2px solid red; */
+    
 
 }
 
@@ -171,7 +173,7 @@ nav ul li{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    /* gap: 15px; */
     width: 170px;
     height: 96px;
     box-sizing: border-box;

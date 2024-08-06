@@ -10,8 +10,8 @@
     /* {
         flex-direction: column;
     } */
-    .banner-content{
-        margin-left: 70px;
+    .banner-content, .navber{
+        margin: 0 20px; 
         
     }
 
@@ -24,16 +24,10 @@
        display: none;
     }
 
-    /* .box-container{
-        flex-direction: column;
-        
-    } */
+ 
     .cards{
         margin-top: 36px;
     }
-    /* .run-container{
-        flex-direction: column;
-    } */
     .run-images{
         margin:  35px auto;
         
@@ -41,13 +35,11 @@
     .meet-images-box{
         grid-template-columns: repeat(1, 1fr);
     }
-    .run-images{
-        margin-top: 0;
-    }
-   
 
-    .banner-content{
-        display: none;
+
+    .banner-content-title{
+        font-size: 2.4rem;
+        
     }
    
     
